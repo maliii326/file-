@@ -1,0 +1,9 @@
+file = open("text.txt", "r")
+data = file.read()
+length=0
+num_of_char=input('enter a character ')
+for i in data:
+    if num_of_char  ==i:
+        length = length +1
+print('Number of characters in text file :', length)
+
